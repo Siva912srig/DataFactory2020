@@ -26,17 +26,17 @@
 		"LS_DataBricks_accessToken": {
 			"value": ""
 		},
-		"trigger2_properties_PL_CopyFileIfNotexists_parameters_FileName": {
-			"value": "@triggerBody().fileName"
-		},
-		"trigger2_properties_typeProperties_scope": {
-			"value": "/subscriptions/b55af1fd-af26-4506-a55a-3ce47e283afc/resourceGroups/demo_adf/providers/Microsoft.Storage/storageAccounts/demosa127"
-		},
 		"LS_Blob_dempsa127gen2_properties_typeProperties_url": {
 			"value": "https://demosa127gen2.dfs.core.windows.net"
 		},
 		"LS_CosmosDB_OrderDB_properties_typeProperties_database": {
 			"value": "orderdb"
+		},
+		"trigger2_properties_PL_CopyFileIfNotexists_parameters_FileName": {
+			"value": "@triggerBody().fileName"
+		},
+		"trigger2_properties_typeProperties_scope": {
+			"value": "/subscriptions/b55af1fd-af26-4506-a55a-3ce47e283afc/resourceGroups/demo_adf/providers/Microsoft.Storage/storageAccounts/demosa127"
 		},
 		"containerUri": {
 			"value": ""
