@@ -1,0 +1,33 @@
+{
+	"name": "PL_DataBricks",
+	"properties": {
+		"activities": [
+			{
+				"name": "Notebook1",
+				"type": "DatabricksNotebook",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Users/sangram.patro@outlook.com/DataBricksCallfromADF/Main Scala",
+					"baseParameters": {
+						"datefolder": "20200502"
+					}
+				},
+				"linkedServiceName": {
+					"referenceName": "LS_ADB",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2020-11-15T16:30:45Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}
