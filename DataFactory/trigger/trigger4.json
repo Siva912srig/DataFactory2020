@@ -1,0 +1,25 @@
+{
+	"name": "trigger4",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "PL_IncrementalCopy",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 5,
+				"startTime": "2020-12-27T14:45:00Z",
+				"endTime": "2020-12-28T14:45:00Z",
+				"timeZone": "UTC"
+			}
+		}
+	}
+}
