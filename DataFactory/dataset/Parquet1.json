@@ -1,0 +1,40 @@
+{
+	"name": "Parquet1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_Blob_demosa127",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "databricksoutput"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": [
+			{
+				"name": "PurchaseOrderID",
+				"type": "UTF8"
+			},
+			{
+				"name": "CustomerCode",
+				"type": "UTF8"
+			},
+			{
+				"name": "Product",
+				"type": "UTF8"
+			},
+			{
+				"name": "Quantity",
+				"type": "UTF8"
+			},
+			{
+				"name": "UnitPrice",
+				"type": "UTF8"
+			}
+		]
+	}
+}
